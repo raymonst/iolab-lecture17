@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="description">
+	<meta name="keywords" content="keywords">
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="_css/style.css" />
+	<script type="text/javascript" src="_js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="_js/script-literal_notation.js"></script>	
+	<title>IO Lab - Object-Oriented Javascript</title>
+</head>
+
+<body>
+	
+<section id="container">
+		
+	<main>
+
+		<h1>Geometry Calculator</h1>
+		<form id="form-geometry">
+			<ul>
+				<li><a href="#form-geometry-square">square</a></li>
+				<li><a href="#form-geometry-circle">circle</a></li>
+				<li><a href="#form-geometry-triangle">triangle (equilateral)</a></li>
+			</ul>
+			<div id="form-geometry-square" class="form-section"><input id="square-length" type="number" placeholder="length" /></div>				
+			<div id="form-geometry-circle" class="form-section"><input id="circle-radius" type="number" placeholder="radius" /></div>
+			<div id="form-geometry-triangle" class="form-section"><input id="triangle-side" type="number" placeholder="side length" /></div>
+			<input type="submit" value="SUBMIT" />
+		</form>
+
+		<div id="result">
+			<h2>The area is <span id="result-area">0</span><br/>The circumference is <span id="result-circumference">0</span></h2>
+		</div>
+		
+	</main>
+	
+</section>
+	
+</body>
+</html>
